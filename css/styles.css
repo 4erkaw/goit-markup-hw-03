@@ -1,0 +1,183 @@
+/* Основной цвет фона #FFFFFF */
+/* Основной цвет текста #000000 */
+/* Акцент #2196F3 */
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --primary-font-color: #ffffff;
+  --accent-color: #2196f3;
+  --filter-button-color: #f5f4fa;
+}
+
+body {
+  font-family: roboto;
+  letter-spacing: 0.03em;
+  background-color: var(--primary-font-color);
+}
+
+.list {
+  list-style: none;
+}
+.list a {
+  text-decoration: none;
+}
+/* Header */
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.head {
+  color: var(--primary-text-color);
+}
+.foot {
+  color: var(--primary-font-color);
+}
+.accent {
+  color: var(--accent-color);
+}
+.page a,
+.contacts a {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.page a:hover,
+.page a:focus {
+  color: var(--accent-color);
+}
+
+.page .current {
+  color: var(--accent-color);
+}
+.contacts a {
+  color: var(--secondary-text-color);
+}
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--accent-color);
+}
+
+/* Banner */
+.banner {
+  background-color: #2f303a;
+}
+.banner .text {
+  color: var(--primary-font-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.banner .button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--primary-font-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+.banner .button:focus {
+  color: var(--primary-font-color);
+}
+
+/* Features */
+
+.features .mini-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+.features .text {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
+
+/* What we do */
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+/* Our team */
+.team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--primary-text-color);
+}
+.team p {
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--secondary-text-color);
+}
+
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--primary-font-color);
+}
+.footer .contacts a {
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* PORTFOLIO PAGE */
+
+/* Filter */
+.filter {
+  list-style: none;
+}
+.hidden {
+  color: var(--primary-font-color);
+}
+
+.filter .button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--primary-text-color);
+  cursor: pointer;
+}
+.filter .button:hover,
+.filter .button:focus {
+  color: var(--primary-font-color);
+  background-color: var(--accent-color);
+}
+
+/* List */
+.list h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+.list p {
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
+}
