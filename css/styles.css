@@ -426,6 +426,7 @@ a.current {
   flex-wrap: wrap;
   display: flex;
   margin-right: -30px;
+  margin-bottom: -30px;
 }
 
 .main-link-item{
